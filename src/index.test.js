@@ -13,7 +13,7 @@ test('index test', () => {
         name: 'Маг',
         health: 50
     });
-    expect(result).toBe('wounded');
+    expect(result).toBe('healthy');
 });
 
 test('index test', () => {
@@ -29,7 +29,7 @@ test('index test', () => {
         name: 'Маг',
         health: 15
     });
-    expect(result).toBe('critical');
+    expect(result).toBe('wounded');
 });
 
 test('index test', () => {
